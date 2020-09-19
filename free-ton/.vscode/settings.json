@@ -1,0 +1,15 @@
+{
+  // Compile using a remote version instead of the current one, for example: 'latest' or 'v0.4.3+commit.2353da71'
+  // "solidity.compileUsingRemoteVersion": "v0.4.21+commit.dfe3193c",
+  "solidity.compileUsingRemoteVersion": "v0.6.12+commit.27d51765",
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules",
+  // Solium linting validation rules
+  "solidity.linter": "solium",
+  "solidity.soliumRules": {
+    "imports-on-top": 0,
+    "variable-declarations": 0,
+    "indentation": [ "error", 4 ],
+    "quotes": [ "error", "double" ]
+  },
+}

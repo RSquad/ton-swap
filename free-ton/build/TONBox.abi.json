@@ -1,0 +1,74 @@
+{
+	"ABI version": 2,
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_founder","type":"address"},
+				{"name":"_recipient","type":"address"},
+				{"name":"_amount","type":"uint128"},
+				{"name":"_hashSecret","type":"uint256"},
+				{"name":"_timelock","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getBoxData",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"o_founder","type":"address"},
+				{"name":"o_recipient","type":"address"},
+				{"name":"o_hashSecret","type":"uint256"},
+				{"name":"o_timelock","type":"uint256"},
+				{"name":"o_amount","type":"uint128"}
+			]
+		},
+		{
+			"name": "getSecret",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"o_secret","type":"uint256"}
+			]
+		},
+		{
+			"name": "complete",
+			"inputs": [
+				{"name":"_secret","type":"uint256"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "reclaim",
+			"inputs": [
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "vBuild",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"o_vBuild","type":"uint256"}
+			]
+		},
+		{
+			"name": "calculateHash",
+			"inputs": [
+				{"name":"_secret","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"o_hashSecret","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "eth-atomic-truffle",
+  "version": "1.1.1",
+  "description": "Atomic Swap Smart Contracts",
+  "scripts": {
+    "lint": "solium -d contracts",
+    "cover": "solidity-coverage",
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --network rinkeby",
+    "deploy2": "truffle migrate --network goerli",
+    "test": "truffle test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.1.0"
+  },
+  "devDependencies": {
+    "@truffle/contract": "^4.2.21",
+    "@truffle/hdwallet-provider": "^1.0.28",
+    "solidity-coverage": "^0.7.10",
+    "solium": "^1.2.5",
+    "truffle": "5.1.42",
+    "web3-utils": "^1.2.4"
+  }
+}

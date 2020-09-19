@@ -1,0 +1,83 @@
+{
+	"ABI version": 2,
+	"header": ["time"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"_boxStateInit","type":"cell"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "createBox",
+			"inputs": [
+				{"name":"_recipient","type":"address"},
+				{"name":"_amount","type":"uint128"},
+				{"name":"_hashSecret","type":"uint256"},
+				{"name":"_timelock","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"o_addrBox","type":"address"}
+			]
+		},
+		{
+			"name": "getBoxByIndex",
+			"inputs": [
+				{"name":"idx","type":"uint256"}
+			],
+			"outputs": [
+				{"components":[{"name":"addr","type":"address"}],"name":"o_box","type":"tuple"}
+			]
+		},
+		{
+			"name": "getBoxByAddress",
+			"inputs": [
+				{"name":"_address","type":"address"}
+			],
+			"outputs": [
+				{"components":[{"name":"addr","type":"address"}],"name":"o_box","type":"tuple"}
+			]
+		},
+		{
+			"name": "getBoxesCount",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"value0","type":"uint256"}
+			]
+		},
+		{
+			"name": "vBuild",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"o_vBuild","type":"uint256"}
+			]
+		},
+		{
+			"name": "calculateHash",
+			"inputs": [
+				{"name":"_secret","type":"uint256"}
+			],
+			"outputs": [
+				{"name":"o_hashSecret","type":"uint256"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+		{
+			"name": "BoxCreated",
+			"inputs": [
+				{"name":"addrBox","type":"address"},
+				{"name":"founder","type":"address"},
+				{"name":"recipient","type":"address"}
+			],
+			"outputs": [
+			]
+		}
+	]
+}
