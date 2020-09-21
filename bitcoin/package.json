@@ -5,8 +5,7 @@
   "scripts": {
     "lint": "eslint ./",
     "fix": "eslint --fix ./",
-    "start": "babel-node  -x \".js,.ts\" index.js",
-    "test": ""
+    "start": "babel-node  -x \".js,.ts\" index.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -31,5 +30,5 @@
     "eslint-plugin-import": "^2.22.0",
     "typescript": "^4.0.2"
   },
-  "license": "MIT"
+  "license": "Apache-2.0"
 }

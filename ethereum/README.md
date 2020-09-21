@@ -1,22 +1,35 @@
-# Atomic Swap: Bitcoin Transaction Scripts #
+# Atomic Swap: Solidity Smart Contracts for Ethereum Blockchain #
 
-## Usage
-
-You should use
-buildHTLCScript,
-buildRedeemHTLCScript,
-buildRefundHTLCScript
-from
-[btc-script.js](https://github.com/RSquad/ton-swap/blob/master/bitcoin/src/btc-script.js)
-to build Bitcoin transactions.
-
-## Run test
 
 ```
 npm i
-npm start
 ```
 
+## build
+
+```
+npm run compile
+```
+
+## test
+
+```
+npm test
+```
+
+## deploy
+
+### rinkeby
+
+```
+npm run deploy
+```
+
+### goerli
+
+```
+npm run deploy2
+```
 
 ## License
 Copyright © 2020 RSquad. This source code is licensed under the

@@ -14,4 +14,7 @@ This project includes the implementation of the following features:
 This repository was created as a part of RSquad's submission to the # 35 Contest: Atomic Swaps on Free TON (https://gov.freeton.org/proposal?proposalAddress=0:d8122dedf736a4d4b8133354ee2f65eaecc7cfb3bb1e802a2ccf37cdc5538f29)
 
 ### License
-Apache-2.0 License
+Copyright © 2020 RSquad. This source code is licensed under the
+[Apache-2.0 License](https://github.com/RSquad/ton-swap/blob/master/LICENSE).
+The documentation to the project is licensed under the
+[CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) license.
